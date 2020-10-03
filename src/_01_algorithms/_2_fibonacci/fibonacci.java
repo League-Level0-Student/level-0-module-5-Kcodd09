@@ -8,9 +8,11 @@ public class fibonacci {
 		System.out.println(number1);
 		System.out.println(number2);
 		for (int i = 0; i < 10; i++) {
-			number1=number1+i;
-			number2=number2+i;
 			System.out.println(sum);
+			number1=sum-number1;
+			sum=number1+number2;
+			number2=sum;
+			
 			
 		}
 	}
